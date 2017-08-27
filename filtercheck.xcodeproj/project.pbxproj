@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		375397D21F452DFF00229EDF /* 吹き出し.png in Resources */ = {isa = PBXBuildFile; fileRef = 375397D11F452DFF00229EDF /* 吹き出し.png */; };
 		37FA35601F10E83D000D3458 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA355F1F10E83D000D3458 /* AppDelegate.swift */; };
 		37FA35621F10E83D000D3458 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37FA35611F10E83D000D3458 /* ViewController.swift */; };
 		37FA35651F10E83D000D3458 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FA35631F10E83D000D3458 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		375397D11F452DFF00229EDF /* 吹き出し.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "吹き出し.png"; path = "../吹き出し.png"; sourceTree = "<group>"; };
 		37FA355C1F10E83D000D3458 /* filtercheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = filtercheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37FA355F1F10E83D000D3458 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37FA35611F10E83D000D3458 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 		37FA355E1F10E83D000D3458 /* filtercheck */ = {
 			isa = PBXGroup;
 			children = (
+				375397D11F452DFF00229EDF /* 吹き出し.png */,
 				37FA355F1F10E83D000D3458 /* AppDelegate.swift */,
 				37FA35611F10E83D000D3458 /* ViewController.swift */,
 				37FA35631F10E83D000D3458 /* Main.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					37FA355B1F10E83D000D3458 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = NY2898HNP9;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -124,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37FA356A1F10E83D000D3458 /* LaunchScreen.storyboard in Resources */,
+				375397D21F452DFF00229EDF /* 吹き出し.png in Resources */,
 				37FA35671F10E83D000D3458 /* Assets.xcassets in Resources */,
 				37FA35651F10E83D000D3458 /* Main.storyboard in Resources */,
 			);
@@ -260,7 +265,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NY2898HNP9;
 				INFOPLIST_FILE = filtercheck/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.filtercheck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +279,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NY2898HNP9;
 				INFOPLIST_FILE = filtercheck/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.litech.filtercheck;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +308,7 @@
 				37FA35701F10E83D000D3458 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
